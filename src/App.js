@@ -18,24 +18,24 @@ function App() {
   return (
     <Router>
       <div className="app">
-         <Switch>
-           
-           <Route path="/JobSeekerLogin">
-             <JobSeekerLogin />
-           </Route>
-           <Route path="/JobSeekerSignUp">
-             <JobSeekerSignUp />
-           </Route>
-           <Route path="/EmployerLogin">
-             <EmployerLogin />
-           </Route>
-           <Route path="/">
-             <Header />
-             <Home/>
-             <h1>Home Page</h1>
-           </Route>
-         </Switch>
-    </div>
+        <Switch>
+
+          <Route path="/jobseeker-login">
+            <JobSeekerLogin />
+          </Route>
+          <Route path="/jobseeker-signUp">
+            <JobSeekerSignUp />
+          </Route>
+          <Route path="/employer-login">
+            <EmployerLogin />
+          </Route>
+          <Route path="/">
+            <Header />
+            <Home />
+            <h1>Home Page</h1>
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }

@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
+
           <h1 className="App-title"> JobSeekerSignUp </h1>
         </header>
         <div className="App-intro">
@@ -53,7 +53,7 @@ class App extends Component {
 
           <Recaptcha
             sitekey="6LfZv9IaAAAAAGX52GDEFHzoudrLvNPSvlmGh1Hv"
-           
+
             render="explicit"
             onloadCallback={this.recaptchaLoaded}
             verifyCallback={this.verifyCallback}
