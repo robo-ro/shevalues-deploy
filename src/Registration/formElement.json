@@ -1,0 +1,349 @@
+[
+    {
+        "page_label": "Job Seeker Registrartion",
+        "fields": [
+            {
+                "field_id": "fullName",
+                "field_label": "Full Name",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter name your Full Name",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "email",
+                "field_label": "Primary Email",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter your primary email",
+                "field_type": "text"
+            },
+
+
+            {
+                "field_id": "contact",
+                "field_label": "Mobile No.",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter contact no.(10 digits)",
+                "field_type": "contact"
+            },
+
+            {
+                "field_id": "currentLocation",
+                "field_label": "Current Location",
+                "field_mandatory": "yes",
+                "field_placeholder": "Choose working job location",
+                "field_type": "text",
+                "field_value": ""
+            },
+
+            {
+                "field_id": "gender",
+                "field_head":"Gender",
+                "field_value": " ",
+                "field_mandatory": "yes",
+                "field_type": "radio",
+                "field_options": [
+                    {
+                    "option_label": "She,her and hers"
+                    }
+                ]
+            },
+
+
+
+            {
+                "field_id": "industry",
+                "field_label": "Industry",
+                "field_value": "Select your present work industry",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Adtech"
+                    },
+                    {
+                        "option_label": "Advanced manufacturing"
+                    },
+                    {
+                        "option_label": "Agtech"
+                    },
+                    {
+                        "option_label": "Artificial intelligence and ML"
+                    },
+                    {
+                        "option_label": "Audiotech"
+                    },
+                    {
+                        "option_label": "Agtech"
+                    },
+                    {
+                        "option_label": "Augmented reality (AR)"
+                    },
+                    {
+                        "option_label": "Autonomous cars"
+                    },
+                    {
+                        "option_label": "B2B payments"
+                    },
+                    {
+                        "option_label": "Beauty"
+                    },
+                    {
+                        "option_label": "AgtBig Dataech"
+                    },
+                    {
+                        "option_label": "Carsharing"
+                    },
+                    {
+                        "option_label": "Cleantech"
+                    },
+                    {
+                        "option_label": "Climate tech"
+                    },
+                    {
+                        "option_label": "Cloudtech and DevOps"
+                    },
+                    {
+                        "option_label": "Construction technology"
+                    },
+                    
+                    {
+                        "option_label": "Blockchain"
+                    },
+                    {
+                        "option_label": "Circular Economy"
+                    },
+                    {
+                        "option_label": "Cybersecurity"
+                    },
+                    {
+                        "option_label": "Digital health"
+                    },
+                    {
+                        "option_label": "Ecommerce"
+                    },
+                    {
+                        "option_label": "Edtech"
+                    },
+                    {
+                        "option_label": "Ephemeral content"
+                    },
+                    {
+                        "option_label": "eSports"
+                    },
+                    {
+                        "option_label": "Femtech"
+                    },
+                    {
+                        "option_label": "Fintech"
+                    },
+                    {
+                        "option_label": "Foodtech"
+                    },
+                    {
+                        "option_label": "Gaming"
+                    },
+                    {
+                        "option_label": "Gig economy"
+                    },
+                    {
+                        "option_label": "Healthtech"
+                    },
+                    {
+                        "option_label": "HRtech"
+                    },
+                    {
+                        "option_label": "Impact investing"
+                    },
+                    {
+                        "option_label": "Industrials"
+                    },
+                    {
+                        "option_label": "Infrastructure"
+                    },
+                    {
+                        "option_label": "Insurtech"
+                    },
+                    {
+                        "option_label": "Internet of Things (IoT)"
+                    },
+                    {
+                        "option_label": "Legal tech"
+                    },
+                    {
+                        "option_label": "Life sciences"
+                    },
+                    {
+                        "option_label": "Lifestyles of Health"
+                    },
+                    {
+                        "option_label": "Manufacturing"
+                    },
+                    {
+                        "option_label": "Marketing tech"
+                    },
+                    {
+                        "option_label": "Micro-mobility"
+                    },
+                    {
+                        "option_label": "Mobile"
+                    },
+                    {
+                        "option_label": "Mobile commerce"
+                    },
+                    {
+                        "option_label": "Mobility tech"
+                    },
+                    {
+                        "option_label": "Mortgage tech"
+                    },
+                    {
+                        "option_label": "Nanotechnology"
+                    },
+                    {
+                        "option_label": "Pet tech"
+                    },
+                    {
+                        "option_label": "Real estate tech"
+                    },
+                    {
+                        "option_label": "Restaurant tech"
+                    },
+                    {
+                        "option_label": "Ridesharing"
+                    },
+                    {
+                        "option_label": "Robotics and drones"
+                    },
+                    {
+                        "option_label": "Software as a service (SaaS)"
+                    },
+                    {
+                        "option_label": "Space tech"
+                    },
+                    {
+                        "option_label": "Supply chain technology"
+                    },
+                    {
+                        "option_label": "Sustainability "
+                    },
+                    {
+                        "option_label": "Technology, media and telecommunications (TMT)"
+                    },
+                    {
+                        "option_label": "Virtual reality (VR)"
+                    },
+                    {
+                        "option_label": "Wearables and quantified self"
+                    },
+                    {
+                        "option_label": "3D printing"
+                    },
+                    {
+                        "option_label": "Oil and gas"
+                    },
+                    {
+                        "option_label": "Oncology"
+                    },
+                    {
+                        "option_label": "Virtual reality (VR)"
+                    }
+
+                ],
+                "field_type": "select"
+            },
+
+            {
+                "field_id": "workStatus",
+                "field_label": "Work Status",
+                "field_value": "Select your present work status",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Currenty employed"
+                    },
+                    {
+                        "option_label": "Currently unemployed"
+                    },
+                    {
+                        "option_label": "Fresher"
+                    }
+                ],
+                "field_type": "select"
+            },
+
+
+            {
+                "field_id": "yearsOfExperience",
+                "field_label": "Years of Experience",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter years of experience",
+                "field_type": "text",
+                "field_value": ""
+            },
+
+           
+            
+
+
+
+            {
+                "field_id": "jobTitle",
+                "field_label": "Job Title",
+                "field_value": " ",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Fresher"
+                    },
+                    {
+                        "option_label": "Associate"
+                    },
+                    {
+                        "option_label": "Mid and Senior"
+                    },
+                    {
+                        "option_label": "Executive"
+                    }
+                ],
+                "field_type": "select"
+            },
+
+            
+            {
+                "field_id": "skills",
+                "field_head": "Skills",
+                "field_value": " ",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "o1"
+                    },
+                    {
+                        "option_label": "o2"
+                    },
+                    {
+                        "option_label": "o3"
+                    },
+                    {
+                        "option_label": "o4"
+                    },
+                    {
+                        "option_label": "o5"
+                    }
+                ],
+                "field_type": "inlineChecks"
+            },
+            
+
+
+            {
+                "field_id": "resume",
+                "field_label": "I don't have a resume",
+                "field_type": "checkbox",
+                "field_value": " "
+            }
+
+            
+        ]
+    }
+]

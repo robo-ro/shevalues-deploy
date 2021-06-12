@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Recaptcha from 'react-recaptcha';
 
-import './App.css';
+import './JobSeekerSignUp.css';
 
-class App extends Component {
+class JobSeekerSignUp extends Component {
   constructor(props) {
     super(props)
 
@@ -38,12 +38,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
+      <div className="JobSeekerSignUp">
+        <header className="JobSeekerSignUp-header">
 
-          <h1 className="App-title"> JobSeekerSignUp </h1>
+          <h1 className="JobSeekerSignUp-title"> JobSeekerSignUp </h1>
         </header>
-        <div className="App-intro">
+        <div className="JobSeekerSignUp-intro">
           <input type="text" placeholder="email@company.com" />
 
           <div
@@ -64,4 +64,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default JobSeekerSignUp;
