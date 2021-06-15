@@ -1,19 +1,19 @@
-// import './App.css';
+import '../../App.css';
 import './signup.css';
 import React from 'react';
 import signupImage from './signupImage.svg';
-
+import Form from '../Form/Form'
 
 function Sign() {
   return (
     <div className="signup">
       <section className="signupContainerCls">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-md-6 paddingNoneCls">
               <div className="signupLeftHolder bgColor">
                 <span className="signupImageHolderCls">
-                 <img src={signupImage} alt="signup image" className="signupImageCls"></img>
+                  <img src={signupImage} alt="signup image" className="signupImageCls"></img>
                 </span>
                 <div className="bottomTextHolder">
                   <h1 className="headerFont textWhite">Welcome to Shevalues! Women only Job Portal.</h1>
@@ -33,7 +33,7 @@ function Sign() {
               </div>
             </div>
             <div className="col-md-6">
-    
+              <Form />
             </div>
           </div>
         </div>

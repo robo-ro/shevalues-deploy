@@ -1,67 +1,12 @@
-import React, { Component } from 'react';
-import Recaptcha from 'react-recaptcha';
+import React from 'react'
+import Sign from './PageImage/signup'
 
-import './JobSeekerSignUp.css';
-
-class JobSeekerSignUp extends Component {
-  constructor(props) {
-    super(props)
-
-    this.handleSubscribe = this.handleSubscribe.bind(this);
-    this.recaptchaLoaded = this.recaptchaLoaded.bind(this);
-    this.verifyCallback = this.verifyCallback.bind(this);
-
-    this.state = {
-      isVerified: false
-    }
-  }
-
-  recaptchaLoaded() {
-    console.log('capcha successfully loaded');
-  }
-
-  handleSubscribe() {
-    if (this.state.isVerified) {
-      alert('You have successfully signed up for the site!');
-    } else {
-      alert('Please verify that you are a human!');
-    }
-  }
-
-  verifyCallback(response) {
-    if (response) {
-      this.setState({
-        isVerified: true
-      })
-    }
-  }
-
-  render() {
+const JobSeekerSignUp = () => {
     return (
-      <div className="JobSeekerSignUp">
-        <header className="JobSeekerSignUp-header">
-
-          <h1 className="JobSeekerSignUp-title"> JobSeekerSignUp </h1>
-        </header>
-        <div className="JobSeekerSignUp-intro">
-          <input type="text" placeholder="email@company.com" />
-
-          <div
-            className="convert"
-            onClick={this.handleSubscribe}
-          >Sign Up</div>
-
-          <Recaptcha
-            sitekey="6LfZv9IaAAAAAGX52GDEFHzoudrLvNPSvlmGh1Hv"
-
-            render="explicit"
-            onloadCallback={this.recaptchaLoaded}
-            verifyCallback={this.verifyCallback}
-          />
+        <div>
+            <Sign/>
         </div>
-      </div>
-    );
-  }
+    )
 }
 
-export default JobSeekerSignUp;
+export default JobSeekerSignUp

@@ -29,7 +29,7 @@ function Banner() {
             <input type="text" className="header__searchInput" placeholder="Search.."  />
             </div>
             <div className="header__nav">
-            <Link to="/JobSeekerLogin"className="header__link">
+            <Link to="/jobseeker-login" className="header__link">
             <div className="header__option">
             <span className="header__optionLineOne">Jobseeker</span>
             <span className="header__optionLineTwo">Log in</span>

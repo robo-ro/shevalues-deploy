@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+// import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,13 +8,14 @@ import {
 
 import Home from "./HomePage/home";
 // import Home from "./Home";
+
 import JobSeekerLogin from "./JobSeekerLogin/JobSeekerLogin";
 import EmployerLogin from "./EmployerLogin/EmployerLogin";
 import JobSeekerSignUp from "./JobSeekerSignUp/JobSeekerSignUp";
-// import Signup from "./signup.js";
 import Registration from "./Registration/Registration.js";
-import TestLogin from "./PsychometricTest/components/Login/TestLogin";
-import PsychQuiz from "./PsychometricTest/components/Quiz/PsychQuiz";
+
+// import TestLogin from "./PsychometricTest/components/Login/TestLogin";
+// import PsychQuiz from "./PsychometricTest/components/Quiz/PsychQuiz";
 
 
 
@@ -43,18 +44,16 @@ function App() {
           <Route path="/home">
             <Home />
           </Route>
-          {/* <Route path="/signup">
-            <Signup />
-          </Route> */}
+         
           <Route path="/registration">
             <Registration />
           </Route>
-          <Route path="/pyschometricTest">
+          {/* <Route path="/pyschometricTest">
             <TestLogin />
           </Route>
           <Route path="/quiz">
             <PsychQuiz />
-          </Route>
+          </Route> */}
 
 
 
