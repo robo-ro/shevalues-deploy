@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/shevalues-deploy/static/css/main.26db7ddd.chunk.css",
-    "main.js": "/shevalues-deploy/static/js/main.fdcf9257.chunk.js",
-    "main.js.map": "/shevalues-deploy/static/js/main.fdcf9257.chunk.js.map",
+    "main.js": "/shevalues-deploy/static/js/main.c75ab4e2.chunk.js",
+    "main.js.map": "/shevalues-deploy/static/js/main.c75ab4e2.chunk.js.map",
     "runtime-main.js": "/shevalues-deploy/static/js/runtime-main.45996fc5.js",
     "runtime-main.js.map": "/shevalues-deploy/static/js/runtime-main.45996fc5.js.map",
     "static/js/2.6465d9eb.chunk.js": "/shevalues-deploy/static/js/2.6465d9eb.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.45996fc5.js",
     "static/js/2.6465d9eb.chunk.js",
     "static/css/main.26db7ddd.chunk.css",
-    "static/js/main.fdcf9257.chunk.js"
+    "static/js/main.c75ab4e2.chunk.js"
   ]
 }
