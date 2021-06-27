@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shevalues-deploy/static/css/main.f513d61d.chunk.css",
+    "main.css": "/shevalues-deploy/static/css/main.279e0251.chunk.css",
     "main.js": "/shevalues-deploy/static/js/main.02fba220.chunk.js",
     "main.js.map": "/shevalues-deploy/static/js/main.02fba220.chunk.js.map",
     "runtime-main.js": "/shevalues-deploy/static/js/runtime-main.45996fc5.js",
@@ -8,7 +8,7 @@
     "static/js/2.6465d9eb.chunk.js": "/shevalues-deploy/static/js/2.6465d9eb.chunk.js",
     "static/js/2.6465d9eb.chunk.js.map": "/shevalues-deploy/static/js/2.6465d9eb.chunk.js.map",
     "index.html": "/shevalues-deploy/index.html",
-    "static/css/main.f513d61d.chunk.css.map": "/shevalues-deploy/static/css/main.f513d61d.chunk.css.map",
+    "static/css/main.279e0251.chunk.css.map": "/shevalues-deploy/static/css/main.279e0251.chunk.css.map",
     "static/js/2.6465d9eb.chunk.js.LICENSE.txt": "/shevalues-deploy/static/js/2.6465d9eb.chunk.js.LICENSE.txt",
     "static/media/FeaturedLogo.7022c939.png": "/shevalues-deploy/static/media/FeaturedLogo.7022c939.png",
     "static/media/banner.c3b56f30.jpg": "/shevalues-deploy/static/media/banner.c3b56f30.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.45996fc5.js",
     "static/js/2.6465d9eb.chunk.js",
-    "static/css/main.f513d61d.chunk.css",
+    "static/css/main.279e0251.chunk.css",
     "static/js/main.02fba220.chunk.js"
   ]
 }
