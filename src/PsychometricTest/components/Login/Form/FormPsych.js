@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
-// import './Form.css';
+import './Form.css';
 import FormSignup from './FormSignup';
 import FormSuccess from './FormSuccess';
-import { useHistory } from 'react-router-dom';
 
-
-const Form = () => {
-
-const history = useHistory();
-
+const FormPsych = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   function submitForm() {
@@ -17,12 +12,9 @@ const history = useHistory();
   return (
     <>
       <div className='form-container'>
-       
-       
-        {!isSubmitted ? (
         
+        {!isSubmitted ? (
           <FormSignup submitForm={submitForm} />
-         
         ) : (
           <FormSuccess />
         )}
@@ -31,4 +23,4 @@ const history = useHistory();
   );
 };
 
-export default Form;
+export default FormPsych;

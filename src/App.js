@@ -1,5 +1,4 @@
 import React from "react";
-// import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,47 +6,51 @@ import {
 } from "react-router-dom";
 
 import Home from "./HomePage/home";
-// import Home from "./Home";
-
-import JobSeekerLogin from "./JobSeekerLogin/JobSeekerLogin";
-import EmployerLogin from "./EmployerLogin/EmployerLogin";
 import JobSeekerSignUp from "./JobSeekerSignUp/JobSeekerSignUp";
-import Registration from "./Registration/Registration.js";
+import Policy from "./JobSeekerSignUp/Form/policy";
+import Login from "./JobSeekerLogin/Login";
+import Form_registration from "./Registration/Form";
+import Header from "./Header/Header";
 
 // import TestLogin from "./PsychometricTest/components/Login/TestLogin";
 // import PsychQuiz from "./PsychometricTest/components/Quiz/PsychQuiz";
 
-
+import FormPsych from "./PsychometricTest/components/Login/Form/FormPsych"
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div >
         <Switch>
 
           <Route path="/jobseeker-login">
-            <JobSeekerLogin />
+            <Login />
           </Route>
-          <Route path="/jobseeker-signUp">
+
+
+          {/* <Route exact path="/shevalues-deploy">
             <JobSeekerSignUp />
           </Route>
-          <Route path="/employer-login">
-            <EmployerLogin />
+          */}
+
+          <Route exact path="/jobseeker-signup">
+            <JobSeekerSignUp />
           </Route>
-          {/* <Route path="/">
-            <Header />
-            <Home />
-            <h1>Home Page</h1>
-          </Route> */}
 
 
-          <Route path="/home">
-            <Home />
-          </Route>
-         
           <Route path="/registration">
-            <Registration />
+            <Form_registration />
           </Route>
+
+
+          <Route path="/shevalues-deploy">
+            <Home />
+          </Route>
+
+          <Route path="/quiz-login">
+            <FormPsych />
+          </Route>
+
           {/* <Route path="/pyschometricTest">
             <TestLogin />
           </Route>
@@ -55,7 +58,14 @@ function App() {
             <PsychQuiz />
           </Route> */}
 
+          <Route path="/policy">
+            <Policy />
+          </Route>
 
+
+          <Route path="/header">
+            <Header />
+          </Route>
 
 
 

@@ -1,5 +1,7 @@
 import SimpleReactFooter from "simple-react-footer";
 
+// Basic footer template, can be used for any page. The links to the footer options should be modified once those are ready.
+// npm SimpleReactFooter is used here. 
 
 function Footer() {
     const columns = [{
@@ -45,7 +47,7 @@ function Footer() {
     }
     ]
     return (
-        <div className = "footer-wrapper">
+        <div className="footer-wrapper">
             <SimpleReactFooter
 
                 columns={columns}

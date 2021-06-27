@@ -11,11 +11,11 @@
 
 .footer-container{
   
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(241 232 235);
-    height: 110px;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: white !important;
+    height: 110px !important;
 }
 .first-row{
     width: "-webkit-fill-available";

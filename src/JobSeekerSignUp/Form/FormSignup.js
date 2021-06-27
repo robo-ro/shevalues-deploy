@@ -3,7 +3,7 @@ import validate from './validateInfo';
 import useForm from './useForm';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
-// import './Form.css';
+import policy from './policy';
 
 
 
@@ -32,10 +32,9 @@ const FormSignup = ({ submitForm }) => {
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
 
-        {/* <h1>
-          Get started with us today! Create your account by filling out the
-          information below.
-        </h1> */}
+        <h3>
+          Job-Seeker Sign Up
+        </h3>
 
         <div className='form-inputs'>
           <label className='form-label'>First Name</label>
@@ -118,17 +117,17 @@ const FormSignup = ({ submitForm }) => {
 
         <div className="form-inputs terms">
 
-          <label className='form-label' htmlFor="agree"><input type="checkbox" id="agree" onChange={checkboxHandler} />  I agree to <a href="./policy.js" target="_blank">terms and conditions</a></label>
+          <label className='form-label' htmlFor="agree"><input type="checkbox" id="agree" onChange={checkboxHandler} />  I agree to <Link to ='/policy'>terms and conditions</Link></label>
         </div>
-        <Link to="/registration">
-          <button disabled={!agree} className='form-input-btn' type='submit'>
+        {/* <Link to="/registration"> */}
+          <button disabled={!agree} className='form-input-btn' type='submit' >
             Sign up
           </button>
-        </Link>
+        {/* </Link> */}
 
-        {/* <span className='form-input-login'>
+        <span className='form-input-login'>
           Already have an account? Login <Link to= "/jobseeker-login">here</Link>
-        </span> */}
+        </span>
 
       </form>
     </div>

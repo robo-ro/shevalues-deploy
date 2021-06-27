@@ -1,16 +1,19 @@
 import React from 'react';
-// import './Form.css';
+import './Form.css';
 import { useHistory } from 'react-router-dom';
+
+//this is the page which the registration is redirected to. Once the API is integrated, this should be changed.
+
 
 const FormSuccess = () => {
 
   const history = useHistory();
-  history.push('/registration');
-  return (
+  history.push('/quiz-login');
 
+  return (
     <div className='form-content-right'>
       <h1 className='form-success'>We have received your request!</h1>
-      <img className='form-img-2' src='img/img-3.svg' alt='success-image' />
+     
     </div>
   );
 };

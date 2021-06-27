@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
 
-import axios from 'axios';
 
-
-
+// all the methods have been defined here, react hooks have been used.
 
 
 const useForm = (callback, validate) => {
@@ -11,12 +9,17 @@ const useForm = (callback, validate) => {
 
 
   const [values, setValues] = useState({
-    first_name: '',
-    last_name: '',
-    user_email: '',
+    username: '',
+    email: '',
     phone_number: '',
-    password: '',
-    password2: ''
+    city: '',
+    gender: '',
+    work_status: '',
+    years_of_experience: '',
+    job_title: '',
+    industry: '',
+    skills: '',
+    education: ''
   });
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -34,32 +37,7 @@ const useForm = (callback, validate) => {
 
     setErrors(validate(values));
     setIsSubmitting(true);
-
-   
-
-    const axios = require('axios')
-
-    axios.post('http://13.126.181.110:8091/python/shevalues/user_login', {
-
-      data: {
-        "first_name": values.first_name,
-        "last_name": values.last_name,
-        "user_email": values.user_emai,
-        "phone_number": values.phone_number,
-        "password": values.password
-      }
-
-
-    })
-      .then(function (response) {
-        console.log(response);
-      })
-
-
-
-
-
-
+ 
 
   };
 

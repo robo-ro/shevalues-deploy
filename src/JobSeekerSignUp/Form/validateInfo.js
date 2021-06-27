@@ -2,6 +2,11 @@ export default function validateInfo(values) {
   let errors = {};
   var pattern = new RegExp(/^[0-9\b]+$/);
 
+
+  
+//each of the mandatory fields are checked and the syntax of fields like email, phone number and password is checked.
+
+
   if (!values.first_name.trim()) {
     errors.first_name = 'First Name required!';
   }

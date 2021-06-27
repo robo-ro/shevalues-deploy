@@ -6,7 +6,7 @@ import { useHistory } from 'react-router-dom';
 import banner from './banner.jpg';
 import logo from './Logo1.jpg';
 import featuredlogo from './FeaturedLogo.png';
-import '../App.css';
+// import '../App.css';
 import './home.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import {Link } from "react-router-dom";
@@ -22,22 +22,22 @@ function Banner() {
     <div className="App">
         <section className="menuHolderCls">
             <nav className="header">
-            <Link to="/home">
+            <Link to="/shevalues-deploy">
             <img className="header__logo" src={logo_shevalues} width='123px' height='70px' alt=""/> 
             </Link>
             <div className="header__search">
             <input type="text" className="header__searchInput" placeholder="Search.."  />
             </div>
             <div className="header__nav">
-            <Link to="/jobseeker-login" className="header__link">
+            <Link to="/jobseeker-signup" className="header__link">
             <div className="header__option">
             <span className="header__optionLineOne">Jobseeker</span>
-            <span className="header__optionLineTwo">Log in</span>
+            <span className="header__optionLineTwo">Sign-Up</span>
             </div>
             </Link>  
-            <Link to="/EmployerLogin"className="header__link">
+            <Link to="/jobseeker-login"className="header__link">
             <div className="header__option">
-            <span className="header__optionLineOne">Employer</span>
+            <span className="header__optionLineOne">Jobseeker</span>
             <span className="header__optionLineTwo">Log in</span>
             </div>
             </Link> 

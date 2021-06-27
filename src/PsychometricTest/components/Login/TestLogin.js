@@ -30,7 +30,7 @@ function TestLogin(props) {
   let history = useHistory();
 
   const redirect = () => {
-    history.push('/quiz')
+    history.push('https://ganant25.github.io/Pyscometric-Deployed/')
   }
 
 

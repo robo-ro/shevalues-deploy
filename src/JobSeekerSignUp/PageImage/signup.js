@@ -1,4 +1,4 @@
-import '../../App.css';
+// import '../../App.css';
 import './signup.css';
 import React from 'react';
 import signupImage from './signupImage.svg';
